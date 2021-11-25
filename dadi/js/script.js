@@ -19,7 +19,7 @@ function sum (firstNumber, secondNumber, choice){
 
 // MAIN
 let userChoice = prompt('Pari o dispari?');
-while (userChoice!=='pari' && userChoice!=='dispari'){
+while (userChoice.toLowerCase() !=='pari' && userChoice.toLowerCase() !=='dispari'){
     userChoice = prompt('ERRORE: Pari o Dispari?');
 };
 let userNumber = parseInt(prompt('Inserisci un numero tra 1 e 5'));
